@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4682b4; /* Cambiado a un tono azul metálico */
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header img {
+  width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #87CEEB; /* Cambiado a un tono azul metálico */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section > section {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h2 {
+  border-bottom: 2px solid #4682b4; /* Cambiado a un tono azul metálico */
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #4682b4; /* Cambiado a un tono azul metálico */
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;  
+  bottom: 0;
+  width: 100%;
+}
+
+ /* Flexbox para colocar la imagen a la derecha en la sección de contacto */
+ #contacto {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contacto img {
+  margin-left: 20px; /* Espacio entre el texto y la imagen */
+}
+
+/* Añadido margen inferior a la última sección para evitar que el footer la sobrescriba */
+#idiomas {
+  margin-bottom: 80px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 5px 0;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
